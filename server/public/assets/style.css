@@ -1,0 +1,67 @@
+.twitterHandles {
+    display: inline-block;
+    height: 25px;
+    width: 200px;
+    /*list-style-image: url('Twitter_logo_blue_48.png')*/
+    list-style: none;
+    background-color: #0086b3;
+    border: black 1px solid;
+    margin: 5px;
+    padding: 9px 0 5px 0;
+    text-align: center;
+    border-radius: 2px;
+
+}
+
+.mainContent {
+    width: 500px;
+    margin: 100px auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #0009d4;
+}
+
+.generate {
+    margin: 0 auto;
+    display: block;
+    width: 225px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.generate:hover {
+    background-color: #8e8e8e;
+    color: white;
+}
+
+.handleList {
+    /*margin: 0 auto;*/
+    /*width: 500px;*/
+}
+
+.header {
+    text-align: center;
+}
+
+.twitterHandles a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.twitterHandles a:hover{
+    background-color: orangered;
+}
+
+.twitterHandles:hover {
+    background-color: orangered;
+    cursor: pointer;
+}
+
+body {
+    background-color: #00fcff;
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+    /*background: url("./twitterbackground.jpg") no-repeat fixed center;*/
+}
+

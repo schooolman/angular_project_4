@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Challenge 4</title>
+    <script src="/vendor/angular/angular.min.js"></script>
+    <script src="/assets/scripts/app.min.js"></script>
+    <link href="/assets/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="mainContent">
+
+
+<div ng-controller="MainController">
+    </br></br>
+    <h1 class="header">Twitter handles</h1>
+
+    <button class="generate" ng-click="getTwitter()">Get Handles!</button>
+        <ul class="handleList">
+            <li class="twitterHandles" ng-repeat="name in rando track by $index"><a ng-href="http://www.twitter.com/{{name}}">{{name}}</a></li>
+
+        </ul>
+    </br></br>
+
+</div>
+</div>
+
+</body>
+</html>
